@@ -59,10 +59,10 @@ function copyText(text) {
 
 /* === SAVE TO CALENDAR === */
 function saveToCalendar() {
-  const title = "Pernikahan Catur & Risma";
+  const title = "Pernikahan Dzaky & Ambar";
   const start = "20251227T000000Z"; // 27 Des 2025, 07:00 WIB
   const end   = "20251227T165900Z"; // 27 Des 2025, 23:59 WIB
-  const details = "Undangan pernikahan Catur & Risma";
+  const details = "Undangan pernikahan Dzaky & Ambar";
   const location = "https://maps.app.goo.gl/XSKmQFdyqpMsoXLN7?g_st=ipc"; // link Google Maps
 
   const url = `https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(title)}&dates=${start}/${end}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
