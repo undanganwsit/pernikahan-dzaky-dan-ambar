@@ -30,7 +30,7 @@
 
   /* === COUNTDOWN === */
   const countdownEl = document.getElementById("countdown");
-  const weddingDate = new Date("2025-11-14 07:00:00").getTime(); 
+  const weddingDate = new Date("2025-12-27 07:00:00").getTime(); 
   setInterval(() => {
     const now = new Date().getTime();
     const distance = weddingDate - now;
@@ -59,11 +59,11 @@ function copyText(text) {
 
 /* === SAVE TO CALENDAR === */
 function saveToCalendar() {
-  const title = "Pernikahan Jihan & Yusuf ";
-  const start = "20251114T000000Z"; // 14 Nov 2025, 07:00 WIB
-  const end   = "20251114T050000Z"; // 14 Nov 2025, 12:00 WIB
-  const details = "Undangan pernikahan Jihan & Yusuf ";
-  const location = "https://maps.app.goo.gl/SudKTfmu81KAoeNU7"; // link Google Maps
+  const title = "Pernikahan Catur & Risma";
+  const start = "20251227T000000Z"; // 27 Des 2025, 07:00 WIB
+  const end   = "20251227T165900Z"; // 27 Des 2025, 23:59 WIB
+  const details = "Undangan pernikahan Catur & Risma";
+  const location = "https://maps.app.goo.gl/XSKmQFdyqpMsoXLN7?g_st=ipc"; // link Google Maps
 
   const url = `https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(title)}&dates=${start}/${end}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
   
@@ -108,7 +108,7 @@ document.getElementById("rsvpForm").addEventListener("submit", function(e) {
 
   let formData = new FormData(this);
 
-  fetch("https://script.google.com/macros/s/AKfycbzi3sbHzkfLYI1lraAJGMh0oLO-_XDua3sIWChHD-HBD0KwCbnrpR1gt9A8iRNywnNbLQ/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbwtzT44TzIKxDMhPuqYwQ96HhNAz-l1PQ02IU_fV3vmHKA3TfWBcfxFWNW6gmVPmNrd/exec", {
     method: "POST",
     body: formData
   })
@@ -122,7 +122,7 @@ document.getElementById("rsvpForm").addEventListener("submit", function(e) {
 
 
 
-const GET_URL = "https://script.google.com/macros/s/AKfycbzi3sbHzkfLYI1lraAJGMh0oLO-_XDua3sIWChHD-HBD0KwCbnrpR1gt9A8iRNywnNbLQ/exec"; 
+const GET_URL = "https://script.google.com/macros/s/AKfycbwtzT44TzIKxDMhPuqYwQ96HhNAz-l1PQ02IU_fV3vmHKA3TfWBcfxFWNW6gmVPmNrd/exec"; 
 const ucapanBody = document.getElementById("ucapanBody");
 
 function loadUcapan() {
