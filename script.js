@@ -63,7 +63,7 @@ function saveToCalendar() {
   const start = "20251227T000000Z"; // 27 Des 2025, 07:00 WIB
   const end   = "20251227T165900Z"; // 27 Des 2025, 23:59 WIB
   const details = "Undangan pernikahan Dzaky & Ambar";
-  const location = "https://maps.app.goo.gl/XSKmQFdyqpMsoXLN7?g_st=ipc"; // link Google Maps
+  const location = "https://maps.app.goo.gl/9JUyRBvz13e5kCZY6"; // link Google Maps
 
   const url = `https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(title)}&dates=${start}/${end}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
   
