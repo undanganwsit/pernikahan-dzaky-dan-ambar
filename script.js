@@ -30,7 +30,7 @@
 
   /* === COUNTDOWN === */
   const countdownEl = document.getElementById("countdown");
-  const weddingDate = new Date("2025-12-27 07:00:00").getTime(); 
+  const weddingDate = new Date("2026-3-29 07:00:00").getTime(); 
   setInterval(() => {
     const now = new Date().getTime();
     const distance = weddingDate - now;
