@@ -336,7 +336,7 @@
 
 /* ===== SECTION ACARA ===== */
 #acara {
-  background: url("bgakad.png") no-repeat center center/cover;
+  background: url("bgakad.jpg") no-repeat center center/cover;
   padding: 60px 20px;
   text-align: center;
 }
@@ -617,7 +617,7 @@ section {
 /* ===== SECTION LOVE STORY ===== */
 #love-story {
   position: relative;
-  background: url("bglovestory.png") no-repeat center center/cover;
+  background: url("bglovestory.jpg") no-repeat center center/cover;
   /* background-color: rgba(255,255,255,0.5);  putih transparan di atas bg */
   background-blend-mode: overlay; /* bisa coba lighten, multiply, soft-light */
   padding: 60px 20px;
@@ -1136,7 +1136,7 @@ section {
 /* ===== SECTION PENUTUP ===== */
 #penutup {
   position: relative;
-  background: url("bgpenutup.png") no-repeat center center/cover;
+  background: url("bgpenutup.jpg") no-repeat center center/cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
