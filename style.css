@@ -993,7 +993,7 @@ section {
 }
 
 .ucapan-kehadiran.tidakhadir {
-  color: #274871; /* merah */
+  color: #9a1313; /* merah */
 }
 
 .ucapan-teks {
@@ -1172,7 +1172,7 @@ section {
   font-size: 14px;
   line-height: 1.8;
   margin-bottom: 20px;
-  color: #ffff;
+  color: #274871;
 }
 
 .penutup-nama {
